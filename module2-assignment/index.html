@@ -5,6 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resturantsite</title>
     <link rel="stylesheet" href="/css/index.css">
+    <style>
+        *{
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-family: 'Arial Narrow Bold';
+}
+div{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #b8aa97;
+}
+p{
+    padding: 7px;
+}
+h4{
+    border: 2px solid black;
+    margin-top: -7px;
+    margin-right: -7px;
+    float: right;
+    width: 150px;
+    text-align: center;
+    padding: 2px;
+}
+.chicken h4{
+    background-color: plum;
+}
+.Beef h4{
+    background-color: rgb(221, 28, 28);
+    color: white;
+}
+.Sushi h4{
+    background-color: rgb(209, 209, 112);
+}
+@media(min-width: 992px){
+    .chicken{
+        width: 32%;
+        float: left;
+    }
+    .Beef{
+        width: 32%;
+        display: inline-block;
+        margin-left: 30px;
+    }
+    .Sushi{
+        width: 32%;
+        float: right;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .chicken{
+        float: left;
+        width: 49%;
+    }
+    .Beef{
+        width: 49%;
+        float: right;
+    }
+    .Sushi{
+        position: relative;
+        top: 20px;
+        float: left;
+        width: 100%;
+    }
+}
+@media(max-width: 767px){
+    .chicken{
+        width: 95%;
+        position: relative;
+        left: 20px;
+    }
+    .Beef{
+        width: 95%;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .Sushi{
+        position: relative;
+        top: 40px;
+        width: 95%;
+        left: 20px;
+    }
+}
+    </style>
 </head>
 <body>
     <h2>Our Menu</h2>
