@@ -4,7 +4,7 @@
 }
 .background{
     /* background-color: #fff; */
-    background-image: url('/DBMS Project/images/choosed_background.jpg');
+    background-image: url('images/choosed_background.jpg');
     background-position: center;
     background-size: cover;
     display: table;
